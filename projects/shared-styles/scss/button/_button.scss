@@ -1,0 +1,18 @@
+@mixin button-component-theme($theme) {
+
+  $primary: map-get($theme, primary);
+
+  .shared-button-style {
+    height: 40px;
+    width: 50px;
+      background-image: linear-gradient(rgb(255, 128, 0), rgb(255, 0, 0));
+      color: green;
+      font-weight: 100;
+      outline: 0;
+      border: 1px solid lightgrey;
+    }
+
+    .shared-button-style:hover {
+      background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 128, 0));
+    }
+}

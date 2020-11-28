@@ -1,0 +1,6 @@
+@import '~@angular/material/theming';
+@import 'scss/button/button';
+
+@mixin shared-lib-theme($shared-lib-theme) {
+  @include button-component-theme($shared-lib-theme);
+}

@@ -1,0 +1,5 @@
+{
+  "entry": "./projects/shared-lib/src/lib/shared-lib.theme.scss",
+  "dest": "./dist/shared-lib/shared-lib.theme.scss",
+  "includePaths": ["projects/shared-styles"]
+}

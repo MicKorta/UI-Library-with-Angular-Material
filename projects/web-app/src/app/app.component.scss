@@ -1,0 +1,21 @@
+::ng-deep .mat-raised-button {
+  width: 200px;
+}
+
+.local-button-style {
+  background-color: orange;
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.pad-l {
+  padding-left: 20px;
+}
+
+.pad-t {
+  padding-top: 20px;
+}
